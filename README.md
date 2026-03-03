@@ -1,6 +1,8 @@
 # pacman
 
-A pacman-compatible CLI wrapper for `dnf`/`yum` on RPM-based Linux systems. Use the Arch Linux package manager syntax you know, and it'll do the right thing.
+A pacman-inspired CLI wrapper for `dnf`/`yum` on RPM-based Linux systems.
+
+> **Note:** This is not a drop-in pacman replacement. It uses its own flag conventions (e.g. `-Sybau`) and does not aim to be fully compatible with real Arch pacman syntax.
 
 ## Install
 
